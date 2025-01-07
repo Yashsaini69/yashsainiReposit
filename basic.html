@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Waste Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Food Waste Tracker</h1>
+        <form id="foodForm">
+            <input type="text" id="foodItem" placeholder="Food Item" required>
+            <input type="date" id="expirationDate" required>
+            <button type="submit">Add Food Item</button>
+        </form>
+
+        <h2>Food Inventory</h2>
+        <ul id="foodList"></ul>
+
+        <h2>Recipe Suggestions</h2>
+        <div id="recipeSuggestions"></div>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>
